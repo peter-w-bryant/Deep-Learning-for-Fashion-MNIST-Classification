@@ -82,7 +82,7 @@ For this program I have included 5 functions (listed below) to build a neural ne
       <li>A Dense layer with 128 nodes and a ReLU activation.</li>
       <li>A Dense layer with 64 nodes and a ReLU activation.</li>
       <li>A Dense layer with 10 nodes.</li>
-     </ol>
+     </ol><br>
     &emsp;Input: none
     &emsp;Returns: an untrained neural network model
  </li>
