@@ -70,13 +70,13 @@ For this program I have included 5 functions (listed below) to build a neural ne
 
 <ul>
   <li>
-    get_data_loader(training=True): A function to create a Dataloader object for training or testing.<br>
+    <b>get_data_loader(training=True)</b>: A function to create a Dataloader object for training or testing.<br>
     &emsp;Input: an optional boolean argument (default value is True for training dataset)<br>
     &emsp;Returns: Dataloader for the training set (if training = True) or the test set (if training = False)<br>
     </li>
 
   <li>
-    build model():A function to build the neural network with the following layers:<br>
+    <b>build model()</b>:A function to build the neural network with the following layers:<br>
     <ol>
       <li>A Flatten layer to convert the 2D pixel array to a 1D array.</li>
       <li>A Dense layer with 128 nodes and a ReLU activation.</li>
