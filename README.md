@@ -69,9 +69,20 @@ Each image in the dataset is associated with a label from 1 of 10 classes (given
 For this program I have included 5 functions (listed below) to build a neural network, train the network, evaluate its performance, and make preditions on test data. 
 
 <ul>
+  <i>A function to create a Dataloader object for training or testing.</i>
   <li>
-  get data loader(training=True)<br>
-  – Input: an optional boolean argument (default value is True for training dataset)
-  – Return: Dataloader for the training set (if training = True) or the test set (if training = False)
+  get_data_loader(training=True)<br>
+  Input: an optional boolean argument (default value is True for training dataset)
+  Returns: Dataloader for the training set (if training = True) or the test set (if training = False)
+  </li>
+  <i>A function to build the neural network with the following layers:</i>
+  1. A Flatten layer to convert the 2D pixel array to a 1D array.
+  2. A Dense layer with 128 nodes and a ReLU activation.
+  3. A Dense layer with 64 nodes and a ReLU activation.
+  4. A Dense layer with 10 nodes.
+  <li>
+  build model()<br>
+  Input: none
+  Returns: an untrained neural network model
   </li>
 </ul>
