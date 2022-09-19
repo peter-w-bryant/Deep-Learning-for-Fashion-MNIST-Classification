@@ -60,7 +60,7 @@ Each image in the dataset is associated with a label from 1 of 10 classes (given
   </tr>
   <tr> 
      <td>9</td>
-     <td>Ankle boot</td>
+     <td>Boots</td>
   </tr>
 </table>
 
@@ -76,7 +76,7 @@ For this program I have included 5 functions (listed below) to build a neural ne
     </li><br>
 
   <li>
-    <b>build model()</b>:A function to build the neural network with the following layers:<br>
+    <b>build_model()</b>:A function to build the neural network with the following layers:<br>
     <ol>
       <li>A Flatten layer to convert the 2D pixel array to a 1D array.</li>
       <li>A Dense layer with 128 nodes and a ReLU activation.</li>
@@ -88,7 +88,7 @@ For this program I have included 5 functions (listed below) to build a neural ne
  </li><br>
   
   <li>
-    <b>train model(model, train loader, criterion, T)</b>:A function to train the neural network and print the accumulated loss (epoch loss/length of the dataset) per epoch<br>
+    <b>train_model(model, train loader, criterion, T)</b>:A function to train the neural network and print the accumulated loss (epoch loss/length of the dataset) per epoch<br>
     Input: the model produced by the previous function, the train DataLoader produced by the first function, the criterion, and the number of epochs T for training<br>
     Returns: none
  </li><br>
