@@ -23,19 +23,45 @@ Each image in the dataset is associated with a label from 1 of 10 classes (given
     <th>Description</th>
   </tr>
    <tr> 
-     <td>0/t</td>
-     <td>T-shirt/t</td>
+     <td>0</td>
+     <td>T-shirt</td>
   </tr>
-0	T-shirt/top
-1	Trouser
-2	Pullover
-3	Dress
-4	Coat
-5	Sandal
-6	Shirt
-7	Sneaker
-8	Bag
-9	Ankle boot
+  <tr> 
+     <td>1</td>
+     <td>Trouser</td>
+  </tr>
+  <tr> 
+     <td>2</td>
+     <td>Pullover</td>
+  </tr>
+  <tr> 
+     <td>3</td>
+     <td>Dress</td>
+  </tr>
+  <tr> 
+     <td>4</td>
+     <td>Coat</td>
+  </tr>
+  <tr> 
+     <td>5</td>
+     <td>Sandal</td>
+  </tr>
+  <tr> 
+     <td>6</td>
+     <td>Shirt</td>
+  </tr>
+  <tr> 
+     <td>7</td>
+     <td>Sneaker</td>
+  </tr>
+   <tr> 
+     <td>8</td>
+     <td>Bag</td>
+  </tr>
+  <tr> 
+     <td>9</td>
+     <td>Ankle boot</td>
+  </tr>
 </table>
 
 ## Functions
