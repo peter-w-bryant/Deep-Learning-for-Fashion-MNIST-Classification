@@ -70,7 +70,7 @@ For this program I have included 5 functions (listed below) to build a neural ne
 
 <ul>
   <li>
-  get data loader(training=True)
+  get data loader(training=True)<br>
   – Input: an optional boolean argument (default value is True for training dataset)
   – Return: Dataloader for the training set (if training = True) or the test set (if training = False)
   </li>
