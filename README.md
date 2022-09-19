@@ -71,8 +71,8 @@ For this program I have included 5 functions (listed below) to build a neural ne
 <ul>
     <li>
     get_data_loader(training=True): A function to create a Dataloader object for training or testing.<br>
-    &nbsp;Input: an optional boolean argument (default value is True for training dataset)
-    &nbsp;Returns: Dataloader for the training set (if training = True) or the test set (if training = False)
+    &emsp;Input: an optional boolean argument (default value is True for training dataset)
+    &emsp;Returns: Dataloader for the training set (if training = True) or the test set (if training = False)
     </li>
   <i>A function to build the neural network with the following layers:</i>
   1. A Flatten layer to convert the 2D pixel array to a 1D array.
