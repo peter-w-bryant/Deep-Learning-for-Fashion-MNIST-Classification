@@ -67,3 +67,11 @@ Each image in the dataset is associated with a label from 1 of 10 classes (given
 ## Functions
 
 For this program I have included 5 functions (listed below) to build a neural network, train the network, evaluate its performance, and make preditions on test data. 
+
+<ul>
+  <li>
+  get data loader(training=True)
+  – Input: an optional boolean argument (default value is True for training dataset)
+  – Return: Dataloader for the training set (if training = True) or the test set (if training = False)
+  </li>
+</ul>
