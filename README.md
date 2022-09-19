@@ -70,10 +70,10 @@ For this program I have included 5 functions (listed below) to build a neural ne
 
 <ul>
   <li>
-    <b>get_data_loader(training=True)</b>: A function to create a Dataloader object for training or testing.<br><br>
+    <b>get_data_loader(training=True)</b>: A function to create a Dataloader object for training or testing.<br>
     &emsp;Input: an optional boolean argument (default value is True for training dataset)<br>
     &emsp;Returns: Dataloader for the training set (if training = True) or the test set (if training = False)<br>
-    </li>
+    </li><br>
 
   <li>
     <b>build model()</b>:A function to build the neural network with the following layers:<br>
@@ -85,7 +85,7 @@ For this program I have included 5 functions (listed below) to build a neural ne
      </ol><br>
     &emsp;Input: none<br>
     &emsp;Returns: an untrained neural network model
- </li>
+ </li><br>
   
   
   
