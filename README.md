@@ -74,13 +74,15 @@ For this program I have included 5 functions (listed below) to build a neural ne
     &emsp;Input: an optional boolean argument (default value is True for training dataset)<br>
     &emsp;Returns: Dataloader for the training set (if training = True) or the test set (if training = False)<br>
     </li>
-  <i>A function to build the neural network with the following layers:</i>
-  1. A Flatten layer to convert the 2D pixel array to a 1D array.
-  2. A Dense layer with 128 nodes and a ReLU activation.
-  3. A Dense layer with 64 nodes and a ReLU activation.
-  4. A Dense layer with 10 nodes.
+
   <li>
-  build model()<br>
+  build model():A function to build the neural network with the following layers:<br>
+    <ol>
+      <li>A Flatten layer to convert the 2D pixel array to a 1D array.</li>
+      <li>A Dense layer with 128 nodes and a ReLU activation.</li>
+      <li>A Dense layer with 64 nodes and a ReLU activation.</li>
+      <li>A Dense layer with 10 nodes.</li>
+     </ol>
   Input: none
   Returns: an untrained neural network model
   </li>
