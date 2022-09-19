@@ -70,7 +70,7 @@ For this program I have included 5 functions (listed below) to build a neural ne
 
 <ul>
   <li>
-    <b>get_data_loader(training=True)</b>: A function to create a Dataloader object for training or testing.<br>
+    <b>get_data_loader(training=True)</b>: A function to create a Dataloader object for training or testing.<br><br>
     &emsp;Input: an optional boolean argument (default value is True for training dataset)<br>
     &emsp;Returns: Dataloader for the training set (if training = True) or the test set (if training = False)<br>
     </li>
@@ -83,7 +83,7 @@ For this program I have included 5 functions (listed below) to build a neural ne
       <li>A Dense layer with 64 nodes and a ReLU activation.</li>
       <li>A Dense layer with 10 nodes.</li>
      </ol><br>
-    &emsp;Input: none
+    &emsp;Input: none<br>
     &emsp;Returns: an untrained neural network model
  </li>
   
