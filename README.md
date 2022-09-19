@@ -82,9 +82,15 @@ For this program I have included 5 functions (listed below) to build a neural ne
       <li>A Dense layer with 128 nodes and a ReLU activation.</li>
       <li>A Dense layer with 64 nodes and a ReLU activation.</li>
       <li>A Dense layer with 10 nodes.</li>
-     </ol><br>
+     </ol>
     &emsp;Input: none<br>
     &emsp;Returns: an untrained neural network model
+ </li><br>
+  
+  <li>
+    <b>train model(model, train loader, criterion, T)</b>:A function to train the neural network and print the accumulated loss (epoch loss/length of the dataset) per epoch<br>
+    &emsp;Input: the model produced by the previous function, the train DataLoader produced by the first function, the criterion, and the number of epochs T for training<br>
+    &emsp;Returns: none
  </li><br>
   
   
