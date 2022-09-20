@@ -71,8 +71,8 @@ For this program I have included 5 functions (listed below) to build a neural ne
 <ul>
   <li>
     <b>get_data_loader(training=True)</b>: A function to create a Dataloader object for training or testing.<br>
-    Input: an optional boolean argument (default value is True for training dataset)<br>
-    Returns: Dataloader for the training set (if training = True) or the test set (if training = False)<br>
+    Input: An optional boolean argument (default value is True for training dataset).<br>
+    Returns: Dataloader for the training set (if training = True) or the test set (if training = False).<br>
     </li><br>
 
   <li>
@@ -83,14 +83,26 @@ For this program I have included 5 functions (listed below) to build a neural ne
       <li>A Dense layer with 64 nodes and a ReLU activation.</li>
       <li>A Dense layer with 10 nodes.</li>
      </ol>
-    Input: none<br>
-    Returns: an untrained neural network model
+    Input: None.<br>
+    Returns: An untrained neural network model.
  </li><br>
   
   <li>
     <b>train_model(model, train loader, criterion, T)</b>:A function to train the neural network and print the accumulated loss (epoch loss/length of the dataset) per epoch<br>
-    Input: the model produced by the previous function, the train DataLoader produced by the first function, the criterion, and the number of epochs T for training<br>
-    Returns: none
+    Input: the model produced by the previous function, the train DataLoader produced by the first function, the criterion, and the number of epochs T for training.<br>
+    Returns: None.
+ </li><br>
+ 
+  <li>
+    <b>evaluate_model(model, test loader, criterion, show loss=True)</b>:A function that prints the following evaluation satistics,<br>
+    Input: the trained model produced by the previous function, the test DataLoader, and the criterion.<br>
+    Returns: None.
+ </li><br>
+ 
+ <li>
+    <b>predict_label(model, test images, index)</b>:A function that prints the top 3 most likely labels for the image at the given index, along with their probabilities.<br>
+    Input: The trained model and test images.<br>
+    Returns: None.
  </li><br>
   
   
