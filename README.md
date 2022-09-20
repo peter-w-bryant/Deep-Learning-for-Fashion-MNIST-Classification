@@ -104,6 +104,7 @@ For this program I have included 5 functions (listed below) to build a neural ne
     Input: The trained model and test images.<br>
     Returns: None.
  </li><br>
+</u>
   
 Additionally, I have also written the below function to allow the user to view the image from a particular index of the data_loader and to view its ground truth label. This is particularly useful for comparing the predicted label to the ground truth label, and for seeing the image that was being evaluated.
  
@@ -115,5 +116,3 @@ Additionally, I have also written the below function to allow the user to view t
     </li><br>
 </ul>
   
-  
-</ul>
