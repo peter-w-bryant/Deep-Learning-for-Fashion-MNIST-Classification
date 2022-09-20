@@ -88,19 +88,19 @@ For this program I have included 5 functions (listed below) to build a neural ne
  </li><br>
   
   <li>
-    <b>train_model(model, train loader, criterion, T)</b>:A function to train the neural network and print the accumulated loss (epoch loss/length of the dataset) per epoch<br>
+    <b>train_model(model, train_loader, criterion, T)</b>:A function to train the neural network, print the model's accuracy per epoch, and print the model's accumulated loss (epoch loss/length of the dataset) per epoch.<br>
     Input: the model produced by the previous function, the train DataLoader produced by the first function, the criterion, and the number of epochs T for training.<br>
     Returns: None.
  </li><br>
  
   <li>
-    <b>evaluate_model(model, test loader, criterion, show loss=True)</b>:A function that prints the following evaluation satistics,<br>
+    <b>evaluate_model(model, test_loader, criterion, show_loss=True)</b>:A function that prints the model's average loss (if the show_loss argument is true), and the model's accuracy.<br>
     Input: the trained model produced by the previous function, the test DataLoader, and the criterion.<br>
     Returns: None.
  </li><br>
  
  <li>
-    <b>predict_label(model, test images, index)</b>:A function that prints the top 3 most likely labels for the image at the given index, along with their probabilities.<br>
+    <b>predict_label(model, test_images, index)</b>:A function that prints the top 3 most likely labels for the image at the given index, along with their probabilities.<br>
     Input: The trained model and test images.<br>
     Returns: None.
  </li><br>
