@@ -182,4 +182,4 @@ corresponds to the output of the <b>visualize_image</b> function. Showing us the
 
 ![image](https://user-images.githubusercontent.com/72423203/191144771-0b89bc19-f125-41a6-bba2-1d8b06c63977.png)<br>
 
-is the image that was saved to 'image.png' showing us the original image that the model was evaluating.
+is the image that was saved to 'image.png' showing us the original image that the model was evaluating. 
