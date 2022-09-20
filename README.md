@@ -169,14 +169,14 @@ corresponds to the output of the <b>evaluate_model</b> function. Showing us that
 <i>
 Pullover: 92.45%<br>
 Shirt: 6.20%<br>
-Coat: 1.23%<br>
-</i>
+Coat: 1.23%
+</i><br><br>
 
 corresponds to the output of the <b>predict_label</b> function. Showing us the model's top three predictions for the class that the image belongs to, along with their probability.
 
 <i>
-Ground Truth Label: Pullover<br>
-</i>
+Ground Truth Label: Pullover
+</i><br><br>
 
 corresponds to the output of the <b>visualize_image</b> function. Showing us the ground truth label for the particular image our model just evaluated, and <br>
 
