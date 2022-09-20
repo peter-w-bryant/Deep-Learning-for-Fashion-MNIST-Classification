@@ -159,24 +159,24 @@ Train Epoch: 4  Accuracy: 51468/60000(85.78%)  Loss: 0.401<br>
 
 corresponds to the output of the <b>train_model()</b> function. Showing us that on our 5th epoch my model achieves 85.78% prediction accuracy on the training dataset. 
 
-<p>
+<i>
 Average loss: 0.4301<br>
 Accuracy: 84.48%<br>
-</p>
+</i>
 
 corresponds to the output of the <b>evaluate_model</b> function. Showing us that after training for 5 epochs, my model achieves 84.48% prediction accuracy on the testing dataset with an average loss of 0.4301.
 
-<p>
+<i>
 Pullover: 92.45%<br>
 Shirt: 6.20%<br>
 Coat: 1.23%<br>
-</p>
+</i>
 
 corresponds to the output of the <b>predict_label</b> function. Showing us the model's top three predictions for the class that the image belongs to, along with their probability.
 
-<p>
+<i>
 Ground Truth Label: Pullover
-</p>
+</i>
 
 corresponds to the output of the <b>visualize_image</b> function. Showing us the ground truth label for the particular image our model just evaluated, and 
 
