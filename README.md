@@ -155,14 +155,14 @@ Train Epoch: 1  Accuracy: 49319/60000(82.20%)  Loss: 0.513<br>
 Train Epoch: 2  Accuracy: 50369/60000(83.95%)  Loss: 0.455<br>
 Train Epoch: 3  Accuracy: 51044/60000(85.07%)  Loss: 0.423<br>
 Train Epoch: 4  Accuracy: 51468/60000(85.78%)  Loss: 0.401<br>
-</i>
+</i><br>
 
 corresponds to the output of the <b>train_model()</b> function. Showing us that on our 5th epoch my model achieves 85.78% prediction accuracy on the training dataset. 
 
 <i>
 Average loss: 0.4301<br>
 Accuracy: 84.48%<br>
-</i>
+</i><br>
 
 corresponds to the output of the <b>evaluate_model</b> function. Showing us that after training for 5 epochs, my model achieves 84.48% prediction accuracy on the testing dataset with an average loss of 0.4301.
 
