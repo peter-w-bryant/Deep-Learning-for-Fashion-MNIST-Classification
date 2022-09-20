@@ -94,7 +94,7 @@ For this program I have included 5 functions (listed below) to build a neural ne
  </li><br>
  
   <li>
-    <b>evaluate_model(model, test_loader, criterion, show_loss=True)</b>: A function that prints the model's average loss (if the show_loss argument is true), and the model's accuracy.<br>
+    <b>evaluate_model(model, test_loader, criterion, show_loss=True)</b>: A function that prints the model's average loss (if the show_loss argument is true), and the model's accuracy on the testing data set.<br>
     Input: the trained model produced by the previous function, the test DataLoader, and the criterion.<br>
     Returns: None.
  </li><br>
@@ -157,4 +157,29 @@ Train Epoch: 3  Accuracy: 51044/60000(85.07%)  Loss: 0.423<br>
 Train Epoch: 4  Accuracy: 51468/60000(85.78%)  Loss: 0.401<br>
 </p>
 
-corresponds to the output of the <b>train_model()</b> function. Showing us than on our 5th epoch my model achieves 85.78% prediction accuracy. 
+corresponds to the output of the <b>train_model()</b> function. Showing us that on our 5th epoch my model achieves 85.78% prediction accuracy on the training dataset. 
+
+<p>
+Average loss: 0.4301<br>
+Accuracy: 84.48%<br>
+</p>
+
+corresponds to the output of the <b>evaluate_model</b> function. Showing us that after training for 5 epochs, my model achieves 84.48% prediction accuracy on the testing dataset with an average loss of 0.4301.
+
+<p>
+Pullover: 92.45%<br>
+Shirt: 6.20%<br>
+Coat: 1.23%<br>
+</p>
+
+corresponds to the output of the <b>predict_label</b> function. Showing us the model's top three predictions for the class that the image belongs to, along with their probability.
+
+<p>
+Ground Truth Label: Pullover
+</p>
+
+corresponds to the output of the <b>visualize_image</b> function. Showing us the ground truth label for the particular image our model just evaluated, and 
+
+![image](https://user-images.githubusercontent.com/72423203/191144771-0b89bc19-f125-41a6-bba2-1d8b06c63977.png)
+
+is the image that was saved to 'image.png' showing us the original image that the model was evaluating.
