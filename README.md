@@ -175,11 +175,11 @@ Coat: 1.23%<br>
 corresponds to the output of the <b>predict_label</b> function. Showing us the model's top three predictions for the class that the image belongs to, along with their probability.
 
 <i>
-Ground Truth Label: Pullover
+Ground Truth Label: Pullover<br>
 </i>
 
-corresponds to the output of the <b>visualize_image</b> function. Showing us the ground truth label for the particular image our model just evaluated, and 
+corresponds to the output of the <b>visualize_image</b> function. Showing us the ground truth label for the particular image our model just evaluated, and <br>
 
-![image](https://user-images.githubusercontent.com/72423203/191144771-0b89bc19-f125-41a6-bba2-1d8b06c63977.png)
+![image](https://user-images.githubusercontent.com/72423203/191144771-0b89bc19-f125-41a6-bba2-1d8b06c63977.png)<br>
 
 is the image that was saved to 'image.png' showing us the original image that the model was evaluating.
