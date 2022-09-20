@@ -105,6 +105,15 @@ For this program I have included 5 functions (listed below) to build a neural ne
     Returns: None.
  </li><br>
   
+Additionally, I have also written the below function to allow the user to view the image from a particular index of the data_loader and to view its ground truth label. This is particularly useful for comparing the predicted label to the ground truth label, and for seeing the image that was being evaluated.
+ 
+ <ul>
+  <li>
+    <b>visualize_image(data_loader, index)</b>: A function that returns the image at the index specified from the data_loader and the ground truth label for that image<br>
+    Input: Dataloader for the test set and an image index.<br>
+    Returns: None, but it wll print the ground truth label and save the image to an image file named 'image.png'.<br>
+    </li><br>
+</ul>
   
   
 </ul>
