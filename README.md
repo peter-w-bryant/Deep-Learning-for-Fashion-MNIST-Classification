@@ -109,9 +109,9 @@ Additionally, I have also written the below function to allow the user to view t
  
  <ul>
   <li>
-    <b>visualize_image(data_loader, index)</b>: A function that returns the image at the index specified from the data_loader and the ground truth label for that image<br>
+    <b>visualize_image(data_loader, index)</b>: A function that saves the image corresponding to an index in the data_loader to an image file named 'image.png' and the ground truth label for that image.<br>
     Input: Dataloader for the test set and an image index.<br>
-    Returns: None, but it wll print the ground truth label and save the image to an image file named 'image.png'.<br>
+    Returns: None.<br>
     </li><br>
 </ul>
   
