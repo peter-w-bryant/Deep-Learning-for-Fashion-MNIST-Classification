@@ -120,7 +120,7 @@ Additionally, I have also written the below function to allow the user to view t
 
 Below are a few examples of using the functions above for different images trained for varying numbers of epochs. 
 
-### 1.1 Main Method
+### Example 1 Main Method
 ```python
 if __name__ == '__main__':
     # 1. get_data_loader()
@@ -144,7 +144,7 @@ if __name__ == '__main__':
     visualize_image(test_loader, 1)
     pass
 ```
-### 1.2 Linux Output
+### Example 1 Linux Output
 ![sample1](https://user-images.githubusercontent.com/72423203/191143638-d30aac9e-e010-4056-a4b9-b6e7cb682bee.png)
 
 In this instance, 
