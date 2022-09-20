@@ -24,7 +24,7 @@ Each image in the dataset is associated with a label from 1 of 10 classes (given
   </tr>
    <tr> 
      <td>0</td>
-     <td>T-shirt</td>
+     <td>T-shirt/top</td>
   </tr>
   <tr> 
      <td>1</td>
