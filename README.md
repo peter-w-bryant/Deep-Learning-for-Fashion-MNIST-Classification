@@ -116,3 +116,29 @@ Additionally, I have also written the below function to allow the user to view t
     </li><br>
 </ul>
   
+## Sample Output
+
+```python
+if __name__ == '__main__':
+    # 1. get_data_loader()
+    train_loader = get_data_loader()
+    test_loader = get_data_loader(training = False)
+
+    # 2. build_model()
+    model = build_model()
+
+    # 3. train_model()
+    criterion = nn.CrossEntropyLoss()
+    train_model(model, train_loader, criterion, T = 5)
+
+    # 4. evaluate_model()
+    evaluate_model(model, test_loader, criterion, show_loss = True)
+
+    # 5. predict_label()
+    predict_label(model, test_loader, 1)
+
+    # Testing - visualize_image()
+    visualize_image(test_loader, 1)
+    pass
+
+```
