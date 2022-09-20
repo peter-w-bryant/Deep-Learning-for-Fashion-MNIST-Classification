@@ -149,13 +149,13 @@ if __name__ == '__main__':
 
 In this instance, 
 
-<p>
+<i>
 Train Epoch: 0  Accuracy: 41070/60000(68.45%)  Loss: 0.915<br>
 Train Epoch: 1  Accuracy: 49319/60000(82.20%)  Loss: 0.513<br>
 Train Epoch: 2  Accuracy: 50369/60000(83.95%)  Loss: 0.455<br>
 Train Epoch: 3  Accuracy: 51044/60000(85.07%)  Loss: 0.423<br>
 Train Epoch: 4  Accuracy: 51468/60000(85.78%)  Loss: 0.401<br>
-</p>
+</i>
 
 corresponds to the output of the <b>train_model()</b> function. Showing us that on our 5th epoch my model achieves 85.78% prediction accuracy on the training dataset. 
 
