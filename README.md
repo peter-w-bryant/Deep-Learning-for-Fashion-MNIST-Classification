@@ -1,7 +1,7 @@
 # Deep-Learning-for-Fashion-MNIST-Classification
 
 ## Overview
-A simple deep learning model for predicting labels of handwritten images from the Fashion-MNIST dataset, it must be run in a Linux environment.
+A simple deep learning model for predicting labels of greyscale images from the Fashion-MNIST dataset, it must be run in a Linux environment.
 
 ## Data: FashionMNIST ([source](https://github.com/zalandoresearch/fashion-mnist))
 
